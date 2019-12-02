@@ -1,0 +1,1 @@
+Módulo criado para o estudo esclusivo de Gerênciadores de Pacotes como o yarn e o NPM.
