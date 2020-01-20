@@ -1,0 +1,14 @@
+{
+  "name": "npmteste",
+  "version": "1.0.0",
+  "description": "Pacote de teste para o aprendizado do npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anderson",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}

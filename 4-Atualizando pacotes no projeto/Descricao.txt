@@ -1,0 +1,24 @@
+
+Na pasta npmTeste apague a pasta node_modules, o arquivo site.html e o package-lock.json.
+
+No package.json altere a versão do moment para a versão 1.0, assim:
+"moment": "^1.0.0"
+
+Depois vá em terminal e na pasta npmTeste, execute a seguinte linha de comando:
+npm install
+
+com isso foi instalado a versão mais nova da biblioteca moment com a versão 1.
+
+Para atualizar essa biblioteca utilizamos o npm update, mas somente isso não resolverá e não atualizará nada pois no package.json tem uma descrição que a biblioteca moment só poderá ser baixada a versão mais nova da moment v1.
+
+então para baixar a versão atual da bliblioteca do projeto devemos alterar o package.json e onde tem "moment": "^1.0.0" adicionamos "moment": "^2.0.0".
+
+OBS: atualizando pode ser que mude a forma de lidar com a biblioteca e talvez sea nescessário mudar o projeto, então é nescessário que seja verificado a veracidade da informação para ver se é válido a atualização.
+
+depois de alterar o package.json em terminal colocamos o npm update.
+
+Pronto biblioteca atualizada!
+
+Mas para atualizar somente uma biblioteca especifica, colocamos em terminal o comando:
+npm update momente
+npm update NomeDaBiblioteca

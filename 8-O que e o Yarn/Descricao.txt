@@ -1,0 +1,5 @@
+O yarn é um gerenciador de pacotes que tem duas melhoras em comparação com o npm
+1º: Como ele faz cashe ele pode ser utilizado off-line.
+2º: Por ter arquivos no cashe a velocidade é maior.
+
+https://yarnpkg.com/pt-BR/

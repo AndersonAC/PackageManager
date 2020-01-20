@@ -1,0 +1,31 @@
+
+Na pasta npmTeste crie um pasta com o nome "src";
+
+depois crie o arquivo "index.js" que o arquivo inicial do pacote;
+agora vamos instalar o pacote chamado "Moment.js", no teminal na pasta do projeto digite o comando:
+npm install moment
+
+--Se o package.jason estiver com as dependecias, é só executar o comando "npm install" que ele instala todas as dependencias;
+
+quando instala uma biblioteca, deve ser importada no projeto como foi feito abaixo no arquivo Index.js:
+
+const moment = require('moment');// a bliblioteca moment doi importada
+
+let dia = moment().format('dddd');
+
+console.log('O dia atual é '+dia);
+
+---------
+no cmd colocamos o comando que irá rodar o Index.js, dentro da pasta do pacote colocamos "node src/index.js";
+
+--------
+
+para mudarmos o pacote para a versão braseira colocamos assim no index.js:
+
+const moment = require('moment');// a bliblioteca moment doi importada
+
+moment.locale('pt-br');// troca a biblioteca para a versão em portugues br
+
+let dia = moment().format('dddd');
+
+console.log('O dia atual é '+dia);

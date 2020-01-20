@@ -1,0 +1,8 @@
+O navegador não consegue interpretar a biblioteca mas para isso usamos o webpack.
+
+Dentro da pasta do projeto temos que instalar duas dependências em terminal colocamos:
+npm install webpack webpack-cli
+
+Dentro da pasta do projeto em teminal colocamos o comando npx webpack
+
+assim aparecerá um main.js que é o javascript compilado com o npx webpack

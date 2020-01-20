@@ -1,0 +1,7 @@
+Acessar o site https://nodejs.org/en/download/ e baixar e instalar o node;
+
+node -v
+	Para verificar se o node está instalado e a versão do mesmo;
+npm -v
+	Para verificar se o npm está instalado e a versão do mesmo;
+

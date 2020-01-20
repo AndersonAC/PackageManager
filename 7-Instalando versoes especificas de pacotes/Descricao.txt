@@ -1,0 +1,5 @@
+Dentro da pasta do projeto em teminal colocamos o comando npm install NomeDoPacote@2, assim será instalado a versão 2 mais atualizada.
+
+npm install NomeDoPacote@latest
+npm install NomeDoPacote@2.2
+npm install NomeDoPacote@2.1.4

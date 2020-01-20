@@ -1,0 +1,1 @@
+Dentro da pasta do projeto em teminal colocamos o comando npm uninstall NomeDoPacote, assim será removido a dependencia do pacote no package.json e a pasta do node_modules.

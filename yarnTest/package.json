@@ -1,0 +1,10 @@
+{
+  "name": "yarnTest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andrade",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
